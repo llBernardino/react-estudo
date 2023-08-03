@@ -1,0 +1,16 @@
+
+
+.box_frase{
+
+    background-color: white;
+    border: 1px solid black;
+    border-radius:50px;
+    margin: 10px 0px;
+    
+}
+
+.text_frase{
+    color: black;
+    padding: 10px;
+    font-size: 30px;
+}
