@@ -1,9 +1,5 @@
-import BoxStyle from "./BoxStyle"
-import Article from "./Article"
-import Titlebox from "./Titlebox"
-import Figure from "./Figure"
-import Infos from "./Infos"
-import P from "./P"
+import {BoxStyle, Article, Titlebox, Figure, Infos, P} from "./BoxStyle"
+
 function Box(){
     return(
         <>

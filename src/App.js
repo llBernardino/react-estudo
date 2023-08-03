@@ -11,19 +11,13 @@ import Section_1 from './components/Section_1'
 function App() {
 //const name = "Cauã"
 //const newname = name.toUpperCase()
-
 //function sum(a, b){
 //return a + b
 //}
- 
 //const url = "https://via.placeholder.com/150"
 //const variavel = "Informação que vem da variavel"
 //const meusItens = ["react", "vue", "angular",]
 //const [nome, setNome] = useState()
-
-
-
-
   return (
    <AppStyle>     {/* body */}
 
@@ -33,7 +27,7 @@ function App() {
         <Box/> 
       </Content>
 
-      
+
     </Section_1>
 
 
