@@ -9,6 +9,21 @@ import passeioIcon from './img/produtos/passeio.png'
 import esporteIcon from './img/produtos/esporte.png'
 import retroIcon from './img/produtos/retro.png'
 function App() {
+//const name = "Cauã"
+//const newname = name.toUpperCase()
+
+//function sum(a, b){
+//return a + b
+//}
+ 
+//const url = "https://via.placeholder.com/150"
+//const variavel = "Informação que vem da variavel"
+//const meusItens = ["react", "vue", "angular",]
+//const [nome, setNome] = useState()
+
+
+
+
   return (
    <AppStyle>     {/* body */}
     <SectionOne>
@@ -27,6 +42,14 @@ function App() {
         <Box image={retroIcon} titulo={"PASSEIO"} paragrafo={"Ainda assim, existem dúvidas a respeito de como a necessidade de renovação."}/>
       </Content>
     </SectionTwo>
+      
+    
+
+
+
+
+
+
    </AppStyle>
     
   );
