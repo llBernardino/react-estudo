@@ -3,8 +3,8 @@ import styled from '@emotion/styled'
 
 
 export const SectionTwo = styled.div`
-  padding: 0.5rem ;
-  min-height: 23.75rem ;
+  padding:0px 1rem ;
+  min-height: 28.125rem ;
   display: flex;
   align-items: center;
 `

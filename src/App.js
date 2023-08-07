@@ -2,7 +2,9 @@ import './App.css';
 import { Box } from './components/SectionOne/Box';
 import { AppStyle } from './AppStyle';
 import { Content } from './components/Content'
+import { Row } from './components/Row'
 import { SectionOne } from './components/SectionOne';
+import { TituloProdutos } from './components/SectionOne/TituloProdutos';
 import { SectionTwo } from './components/SectionTwo';
 import { Bicicletas } from "./components/SectionTwo/Bicicletas";
 import passeioIcon from './img/produtos/passeio.png'
@@ -33,13 +35,12 @@ function App() {
     </SectionOne>
     <SectionTwo>
       <Content>
-        <Box image={esporteIcon} titulo={"PASSEIO"} paragrafo={"Ainda assim, existem dúvidas a respeito de como a necessidade de renovação."}/>
-      </Content>
-      <Content>
-        <Box image={passeioIcon} titulo={"PASSEIO"} paragrafo={"Ainda assim, existem dúvidas a respeito de como a necessidade de renovação."}/>
-      </Content>
-      <Content>
-        <Box image={retroIcon} titulo={"PASSEIO"} paragrafo={"Ainda assim, existem dúvidas a respeito de como a necessidade de renovação."}/>
+        <TituloProdutos titulo={"PRODUTOS"}/>
+        <Row>
+          <Box image={esporteIcon} titulo={"PASSEIO"} paragrafo={"Ainda assim, existem dúvidas a respeito de como a necessidade de renovação."}/>
+          <Box image={passeioIcon} titulo={"PASSEIO"} paragrafo={"Ainda assim, existem dúvidas a respeito de como a necessidade de renovação."}/>
+          <Box image={retroIcon} titulo={"PASSEIO"} paragrafo={"Ainda assim, existem dúvidas a respeito de como a necessidade de renovação."}/>
+        </Row>
       </Content>
     </SectionTwo>
       
